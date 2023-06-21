@@ -68,8 +68,11 @@ li{
 }
 .quote{
     padding: 12px auto;
+    font-size: 12px;
+    font-style: italic;
     
 }
-.quote p:first-child{
-    text-align: center;
+.quote p{
+    text-align:left;
+    margin: 12px 4%;
 }
