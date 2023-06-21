@@ -6,10 +6,11 @@
 }
 .container{
     background-color: rgb(138, 7, 7);
-    margin: 0;
-    padding: 5px;
+    height: fit-content;
+    padding: 5px 15px;
     display: block;
     margin-top: 30px;
+    border-radius: 5px;
 }
 .names{
     text-align: center;
@@ -18,16 +19,21 @@
 }
 .names h1{
     font-weight: 900;
-    font-size: 48px;
-    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.3px;
+}
+.names p {
+    margin-top: -25px;
+    color: #c7c2c2;
 }
 
 .dropback{
-    background:  rgb(138, 7, 7) url('imgs/1.jpg');
+    background: rgb(124, 21, 21) url('imgs/1.jpg');
     background-size: cover;
     background-repeat:no-repeat;
-    background-blend-mode: multiply;
-    padding: 5px;
+    background-blend-mode: overlay;
+    padding: 10px 0;
     
 }
 .figure{
@@ -35,19 +41,35 @@
     
 }
 .figure img{
-    width: 600px;
-    height: 400px;
+    width: 67%;
+    height: 80vh;
 }
 .figure p{
-    font-size: 0.7em;
+    font-size: 12px;
+}
+.history{
+    width: 80vw;
+    margin: 0px auto;
 }
 .topic{
     text-align: center;
-    font-weight: bold;
-    font-size: 1em;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 50px 0px;
 }
 .point-list{
-    padding: 20px 500px;
-    font-size: 0.8em;
-    line-height: 2.5;
+    font-size: 12px;
+    margin: 0 26%;
+    
+}
+li{
+    line-height: 1.6;
+    margin: 16px 0;
+}
+.quote{
+    padding: 12px auto;
+    
+}
+.quote p:first-child{
+    text-align: center;
 }
