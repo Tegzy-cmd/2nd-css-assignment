@@ -1,10 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     color: white;
     font-family: 'Poppins', sans-serif;
 
 }
-.container{
+
+.container {
     background-color: rgb(138, 7, 7);
     height: fit-content;
     padding: 5px 15px;
@@ -12,67 +13,208 @@
     margin-top: 30px;
     border-radius: 5px;
 }
-.names{
+
+.names {
     text-align: center;
     display: block;
-    
+
 }
-.names h1{
+
+.names h1 {
     font-weight: 900;
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.3px;
 }
+
 .names p {
     margin-top: -25px;
     color: #c7c2c2;
 }
 
-.dropback{
+.dropback {
     background: rgb(124, 21, 21) url('imgs/1.jpg');
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-blend-mode: overlay;
     padding: 10px 0;
-    
+
 }
-.figure{
+
+.figure {
     text-align: center;
-    
+
 }
-.figure img{
+
+.figure img {
     width: 67%;
     height: 80vh;
 }
-.figure p{
+
+.figure p {
     font-size: 12px;
 }
-.history{
+
+.history {
     width: 80vw;
     margin: 0px auto;
 }
-.topic{
+
+.topic {
     text-align: center;
     font-weight: 600;
     font-size: 14px;
     margin: 50px 0px;
 }
-.point-list{
+
+.point-list {
     font-size: 12px;
     margin: 0 26%;
-    
+
 }
-li{
+
+li {
     line-height: 1.6;
     margin: 16px 0;
 }
-.quote{
+
+.quote {
     padding: 12px auto;
     font-size: 12px;
     font-style: italic;
-    
+    margin: 50px 0px;
+
 }
-.quote p{
-    text-align:left;
+
+.quote p {
+    text-align: left;
     margin: 12px 4%;
+}
+
+.credit {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.credit a {
+    color: rgb(71, 124, 167);
+}
+
+.credit a,
+h3 {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+
+    .container {
+        background-color: rgb(138, 7, 7);
+        padding: 0;
+        padding-bottom: 10px;
+        display: block;
+        margin: 0px;
+        border-radius: 5px;
+    }
+
+    .names {
+        text-align: center;
+        display: block;
+        padding: 34px 14px 0px 14px;
+
+    }
+
+    .names h1 {
+        font-weight: 900;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .names p {
+        margin: 10px auto;
+        color: #c7c2c2;
+    }
+
+    .dropback {
+        background: rgb(124, 21, 21) url('imgs/1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: overlay;
+        padding: 10px 0;
+        margin: 0 15px;
+
+    }
+
+    .figure {
+        text-align: center;
+
+    }
+
+    .figure img {
+        width: 95%;
+        height: 30vh;
+    }
+
+    .figure p {
+        font-size: 17px;
+        margin: 10px 7px;
+    }
+
+    .history {
+        width: 100vw;
+        margin: 0px auto;
+    }
+
+    .topic {
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 50px 0px;
+    }
+
+    .point-list {
+        font-size: 12px;
+        margin: 0 4%;
+
+    }
+
+    li {
+        line-height: 1.6;
+        margin: 16px 0;
+    }
+
+    .quote {
+        padding: 12px auto;
+        font-size: 12px;
+        font-style: italic;
+        margin: 50px 0px;
+
+    }
+
+    .quote p {
+        text-align: left;
+        margin: 12px 4%;
+    }
+
+    .credit {
+        margin: 14px 5%;
+        text-align: center;
+    }
+
+    .credit a {
+        color: rgb(71, 124, 167);
+        font-size: 14px;
+
+    }
+
+    .credit a,
+    h3 {
+        font-size: 14px;
+    }
+    .credit p{
+        margin-top: 14px;
+    }
 }
